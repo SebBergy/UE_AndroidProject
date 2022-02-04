@@ -1,0 +1,3 @@
+*Description* 
+
+This project will be used to reproduce a login issue with Android using the EOS OSS plugin in UE 4.27.2. When launching the game, there is a login button that can be pressed. Once the button is pressed, the default browser on the device should open and prompt the user to enter Epic credentials. Once done, the browser should close, and in the top left of the screen, "Logged in" will be displayed. The issue the customer is running into is that the browser window is never closed. Furthermore, if persistent Auth is added to the source code of the OSS plugin, the login doesn't work at all. 
